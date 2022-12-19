@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "allowJs": true,
+    "checkJs": false,
+    "sourceMap": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noErrorTruncation": true,
+    "jsx": "react-jsx",
+    "plugins": [
+      {
+        "name": "@fineduco/tsc"
+      }
+    ]
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/build",
+    "**/dist",
+    "**/.webpack",
+    "**/coverage",
+    "**/.*/",
+    "**/react-native-app"
+  ]
+}
