@@ -1,0 +1,9 @@
+{
+  "name": "api-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "helmet": "^6.0.1"
+  }
+}
